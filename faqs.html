@@ -1,0 +1,85 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="author" content="Amogh V">
+        <meta name="description" content="My First ever Responsive Web Site">
+        <meta name="keywords" content="Responsive Web Design, Still Learning">
+        <title>Welcome to WBS</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <img src="https://previews.123rf.com/images/captainvector/captainvector1703/captainvector170309945/74377645-university-logo-element.jpg">
+                </div>
+                <nav>
+                    <ul>
+                        <li ><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a>
+                            <!-- <ul>
+                                <li>
+                                    first
+                                </li>
+                                <li>second</li>
+                                <li>
+                                    third
+                                </li>
+                            </ul> --></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li class="current"><a href="faqs.html">FAQS</a></li>
+                        <li><a href="announcements.html">Announcements</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                  <marquee  behavior="scroll" direction="left" scrollamount="4"
+                     onmouseover="this.setAttribute('scrollamount',0,0);this.stop();"
+                     onmouseout="this.setAttribute('scrollamount',4,0);this.start();"
+                     class="moving-body">
+                <script>
+                    for(var i=0; i<=10; i++)
+                        {
+                            document.write('Contact Us at 999999999 and e-mail us at wbs@gmail.edu. For further contact details look at the Contact Us Page.||| ');
+                        }
+                </script>
+            </marquee>
+
+            </div>
+        </header>
+        <div class="faqbody">
+            <h1>FAQS</h1>
+            <div class = "faq1">
+                <div class="question">
+                    <p>Q . Do you have any expierence in this field ?</p> 
+                </div>
+                <div class="answer">
+                    <p>We have been in the education business since 15 years on the name of SKML college which was affiliated to Andhra University . As we want to deal with management courses we cameup with Waltair Bussiness School which is even affiliated to Andhra University </p> 
+
+                </div>
+            </div>
+            <div class = "faq2">
+                <div class="question">
+                    <p>Q1. What are the courses offered by you ?</p> 
+                </div>
+                <div class="answer">
+                    <p>At ths point of time we only offer the BBA program,but we do plan on including the MBA program as well in the future.</p> 
+                </div>
+            </div>
+             <div class = "faq3">
+                <div class="question">
+                    <p>Q2. What are the number of seats available for an academic year?</p> 
+                </div>
+                <div class="answer">
+                    <p>As of now we offer 60 seats per academic year </p> 
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Waltair Business School, Copyright &copy; 2020 </p>
+        </footer>
+    </body>
+</html>    

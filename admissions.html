@@ -1,0 +1,104 @@
+
+<DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="author" content="Amogh V">
+        <meta name="description" content="My First ever Responsive Web Site">
+        <meta name="keywords" content="Responsive Web Design, Still Learning">
+        <title>Welcome to WBS</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <img src="https://previews.123rf.com/images/captainvector/captainvector1703/captainvector170309945/74377645-university-logo-element.jpg">
+                </div>
+                <nav>
+                    <ul>
+                        <li ><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a>
+                           <!--  <ul>
+
+
+                                <li>
+                                    first
+                                </li>
+                                <li>second</li>
+                                <li>
+                                    third
+                                </li>
+                            </ul> --></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li class="current"><a href="admissions.html">Admissions</a></li>
+                        <li><a href="faqs.html">FAQS</a></li>
+                        <li><a href="announcements.html">Announcements</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+                  <marquee  behavior="scroll" direction="left" scrollamount="4"
+                     onmouseover="this.setAttribute('scrollamount',0,0);this.stop();"
+                     onmouseout="this.setAttribute('scrollamount',4,0);this.start();"
+                     class="moving-body">
+                <script>
+                    for(var i=0; i<=10; i++)
+                        {
+                            document.write('Contact Us at 999999999 and e-mail us at wbs@gmail.edu. For further contact details look at the Contact Us Page.||| ');
+                        }
+                </script>
+            </marquee>
+            </div>
+        </header>
+       <!--  <section id="showcase">
+            <div class="container">
+                <h1>admissions</h1>
+                <p>quote </p>
+            </div> -->
+        <!-- </section>
+        <section id="newsletter">
+            <div class="container">
+                <h1>Subscribe to my weekly Newsletter</h1>
+                <form>
+                    <input type="email" placeholder="Enter your e-mail here...">
+                    <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </section> -->
+        <section id="boxes">
+            <div class="container">
+                <div class="box">
+                    <img src="./Images/stk1.jpg">
+                    <h3 class="r">How to apply</h3>
+                    <p>The Waltair Business School offers an in-depth curriculum for both the BBA and MBA programs.
+					Students may apply to our BBA program after Intermediate/12th class.
+					If you are interested in one of our Graduate Programs, you must hold a Bachelor’s degree or equivalent.</p>
+                </div>
+                <div class="box">
+                    <img src="./Images/stk2.jpg">
+                    <h3 class="r">online admission</h3>
+                    <p>The Waltair Business school recommends applying online. 
+					You benefit from an advantageous and flexible solution.
+					Online application is quick and reliable and you will get a call-back from our staff as soon as possible.</p>
+                </div>
+            </div>
+        </section>
+     <!--    <div class = "adminbody">
+            <div class = "hta">
+                <div class = "image">
+                    <img src="./Images/stk1.jpg">
+                </div>
+                
+                <div class = "adpara">
+                    <p>The Waltair Business School offers an in-depth curriculum for both the BBA and MBA programs.
+                        Students may apply to our BBA program after Intermediate/12th class.
+                        If you are interested in one of our Graduate Programs, you must hold a Bachelor’s degree or equivalent.</p>
+                </div>
+            </div>
+        </div> -->
+        <footer>
+            <p>Waltair Business School, Copyright &copy; 2020</p>
+        </footer>
+    </body>
+</html>    
