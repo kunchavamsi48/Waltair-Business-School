@@ -2,8 +2,7 @@ body{
    font: 15px/1.5 Aria, Helvetica, sans-serif;
    padding: 0;
    margin: 0;
-   /*background-color: #f4f4f4;*/
-
+   background-color: #f4f4f4;
 }
 .container{
     width: 80%;
@@ -16,7 +15,6 @@ header{
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
-    /*opacity: 0.5;*/
 }
 header a{
     color: #ffffff;
@@ -159,6 +157,25 @@ p
     color: black;
     margin-bottom: 1px;
 }
+.v  
+{
+float: left;
+width: 100px;
+height: 200px;
+}
+.centered2 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 25px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.container3 {
+  position: relative;
+  text-align: center;
+  color: black;
+}
 #map { 
         height: 400px; 
         width: 100%; 
@@ -227,20 +244,14 @@ p
     height: auto;
     text-align: center;
     margin-left:10%;
-    
    
 }
-.socialmedia {
-  text-align:center;
+#i
+{
+opacity: 0.4;
 }
-.socialmedia ul li{
-    list-style: none;
+#ii
+{
+  color: black;
 }
-.links a img{
-  width:40px;
-  height:40px;
-  padding-top:10px;
-}
-.links a{
-  text-decoration:none;
-}
+
