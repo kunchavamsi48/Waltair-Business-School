@@ -254,6 +254,23 @@ height: 200px;
     margin-left:10%;
    
 }
+.inbody h4{
+	font-family: 'Pangolin', cursive;
+}
+.collab{
+	background-color:grey ;
+	width:80%;
+	height:250px;
+	text-align: center;
+	margin-left:10%;
+}
+.collab img{
+	width:100px;
+	height:60px;
+	float:left;
+	margin-left:30px;
+	margin - right:30px;
+}
 #i
 {
 opacity: 0.4;
