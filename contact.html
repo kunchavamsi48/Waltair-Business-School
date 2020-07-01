@@ -49,8 +49,10 @@
             </div>
         </header>
 
-        <h3>GFG Google Maps :</h3> 
-    <div id="map"></div> 
+      <!-- <h3>GFG Google Maps :</h3>-->
+    <div class="main1" >
+    <div id="map">
+        <h3>GFG Google Maps :</h3>
     <script> 
       function initMap() { 
         var uluru = {lat: 17.722717, lng: 83.313581}; 
@@ -69,20 +71,40 @@
 "https://maps.googleapis.com/maps/api/js?key= 
 AIzaSyB2bXKNDezDf6YNVc-SauobynNHPo4RJb8&callback=initMap"> 
     </script> 
-    <div class = "socialmedia">
-    	<h3>You can Follow us on:</h3>
-    	<ul>	
-    		<li class = "links"><a href="https://www.instagram.com/wbs_vizag_official/"><img src="images/insta.jpg"></a></li>
-    	<li class = "links"><a href=" https://www.facebook.com/wbs.infor.5"><img src="images/facebook.jpg"></a></li>
-    	<li class = "links"><a href=" https://www.linkedin.com/in/waltair-business-school-47463b1b1/"><img src="images/linkedin.jpg"></a></li>
-    	</ul>
-    	<h3>	
-    			mail us on
-    	</h3>
-    	<p>	email : wbsinfo.vizag@gmail.com</p>
+        <!--
+        <section >
+            <div class="map">
+                <h1>Google map location</h1>
+                <script>
+                function initMap() {
+                   var uluru = {lat: -25.344, lng: 131.036};
+                   var map = new google.maps.Map(
+                   document.getElementById('map'), {zoom: 4, center: uluru});
+                   var marker = new google.maps.Marker({position: uluru, map: map});
+                }
+                 </script>
+                  <script async defer
+                          src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+                  </script>
+     
+        </section> -->
+    </div> 
+    <div id="contactinfo">
+        <h3>Contact-Info</h3>
+        <h3>email : wbsinfo.vizag@gmail.com</h3>
+
     </div>
+</div>
+        <hr>
+        <div >
+        <ul class="social-icons">
+            <li><a href="https://www.facebook.com/wbs.infor.5"><img src='Images/facebook.jpg' /></a></li>
+            <li><a href="https://www.linkedin.com/in/waltair-business-school-47463b1b1/"><img src='Images/linkedin.jpg' /></a></li>
+            <li><a href="https://www.instagram.com/wbs_vizag_official/"><img src='Images/insta.jpg' /></a></li>
+        </ul>
+        </div>
         <footer>
             <p>Waltair Business School, Copyright &copy; 2020</p>
         </footer>
     </body>
-</html>    
+</html>  
