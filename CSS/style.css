@@ -260,7 +260,7 @@ height: 200px;
 .collab{
 	background-color:grey ;
 	width:80%;
-	height:250px;
+	height:330px;
 	text-align: center;
 	margin-left:10%;
 }
@@ -269,7 +269,8 @@ height: 200px;
 	height:60px;
 	float:left;
 	margin-left:30px;
-	margin - right:30px;
+	margin-right:30px;
+	margin-bottom:30px;
 }
 #i
 {
