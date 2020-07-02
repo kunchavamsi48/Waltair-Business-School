@@ -9,6 +9,11 @@ body{
     margin: auto;
     overflow: hidden;
 }
+.container3{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
 
 header{
     background: #35424a;
@@ -128,6 +133,7 @@ p
   top: 20%;
   left: 50%;
   font-size: 25px;
+  color: black;
   text-align: center;
   transform: translate(-50%, -50%);
 }
@@ -321,4 +327,59 @@ h3
   }
 .contact-info{
 	text-align:center
+}
+.admi
+{
+
+}
+
+.qu
+{
+text-align: left;
+font-size: 45px;
+color: black;
+}
+.ans
+{
+  color: white;
+}
+.la
+{
+  text-align: left;
+  background-color: aliceblue;
+  padding: 30px;
+  font-size: 25px;
+  margin-top: 1px;
+}
+#f1
+{
+background-color: black;
+color: white;
+padding:15px;
+}
+table, tr, th
+{
+  font-family: arial, sans-serif;
+  width: 75%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+   border: 1px solid black;
+  padding: 15px;
+}
+tr:nth-child(odd) {
+  background-color: gray;
+}
+#cnt
+{
+  text-align: center;
+  font-size: 25px;
+}
+.anno
+{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 30px;
 }
