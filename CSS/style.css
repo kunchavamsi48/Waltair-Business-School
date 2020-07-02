@@ -400,3 +400,10 @@ tr:nth-child(odd) {
   text-align: center;
   font-size: 25px;
 }
+.anno
+{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
