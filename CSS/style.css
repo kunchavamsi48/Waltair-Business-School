@@ -352,3 +352,51 @@ h3
   display: none;
   width:50%;
 }
+.admi
+{
+
+}
+
+.qu
+{
+text-align: left;
+font-size: 45px;
+color: black;
+}
+.ans
+{
+  color: white;
+}
+.la
+{
+  text-align: left;
+  background-color: aliceblue;
+  padding: 30px;
+  font-size: 25px;
+  margin-top: 1px;
+}
+#f1
+{
+background-color: black;
+color: white;
+padding:15px;
+}
+table, tr, th
+{
+  font-family: arial, sans-serif;
+  width: 75%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+   border: 1px solid black;
+  padding: 15px;
+}
+tr:nth-child(odd) {
+  background-color: gray;
+}
+#cnt
+{
+  text-align: center;
+  font-size: 25px;
+}
