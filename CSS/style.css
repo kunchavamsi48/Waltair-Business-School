@@ -22,23 +22,23 @@ header a{
     text-transform: uppercase;
     font-size: 16px;
 }
-ul{
+.container ul{
     margin: 0;
     padding: 0;
 } 
 
-ul li{
+.container ul li{
     display: inline-table;
     margin-right:40px;
     
 }
-ul li ul li{
+.container ul li ul li{
     display:flex;
     display: none
 
 
 }
-ul li:hover ul li{
+.branding ul li:hover ul li{
     display:block;
 }
 header #branding h1{
@@ -82,14 +82,14 @@ header a:hover{
     color: black;
 }
 
-#boxes{
+/*#boxes{
     margin-top: 20px;
 }
 #boxes .box{
     float: left;
     text-align: center;
     width: 30%;
-    /*height: 30%;*/
+    /*height: 30%;
     padding: 10px;
 }
 #boxes .box img{
@@ -97,7 +97,7 @@ header a:hover{
     height: 200px;
 
 }
-
+*/
 footer{
     padding: 20px;
     margin-top: 20px;
@@ -321,4 +321,34 @@ h3
   }
 .contact-info{
 	text-align:center
+}
+.coursesbody{
+  text-align: center;
+}
+.coursesbody{
+  border:2px solid black;
+  width:50%;
+  margin-left:25%;
+  margin-top:5%;
+  background-color:  #ccccb3;
+}
+.coursesbody img{
+  width:40%;
+  height:40%;
+}
+.coursesbody h3{
+  text-align:center;
+
+}
+.coursesbody ul li{
+  text-align: center;
+  list-style: none;
+}
+.md{
+  float:right;
+  color:blue;
+}
+#details{
+  display: none;
+  width:50%;
 }
