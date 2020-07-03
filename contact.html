@@ -1,3 +1,4 @@
+<!--This page is mainly aimed at providing contact details of our institution so that the students can communicate with us hassle-free -->
 <DOCTYPE html>
 <html>
     <head>
@@ -6,18 +7,19 @@
         <meta name="author" content="Amogh V">
         <meta name="description" content="My First ever Responsive Web Site">
         <meta name="keywords" content="Responsive Web Design, Still Learning">
-        <title>contact us</title>
-        <link rel="stylesheet" href="./CSS/style.css">
+        <title>contact us</title><!-- Title that will be displayed in the title bar of the webpage -->
+        <link rel="stylesheet" href="./CSS/style.css"><!-- Link to CSS Stylesheet -->
     </head>
     <body>
+        <!-- this is navigation bar -->
         <header>
             <div class="container">
                 <div id="branding">
-                    <img src="https://previews.123rf.com/images/captainvector/captainvector1703/captainvector170309945/74377645-university-logo-element.jpg">
+                    <img src="https://previews.123rf.com/images/captainvector/captainvector1703/captainvector170309945/74377645-university-logo-element.jpg"><!-- Image that  will be displayed as our logo -->
                 </div>
                 <nav>
                     <ul>
-                        <li ><a href="index.html">Home</a></li>
+                        <li ><a href="index.html">Home</a></li><!-- Contents of Navigation Bar that will be displayed in a horizontal line -->
                         <li><a href="about.html">About</a>
                           <!--   <ul>
                                 <li>
@@ -35,11 +37,12 @@
                         <li class="current"><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </nav>
+                <!-- scrolling below the naviagtion bar -->
                   <marquee  behavior="scroll" direction="left" scrollamount="4"
                      onmouseover="this.setAttribute('scrollamount',0,0);this.stop();"
                      onmouseout="this.setAttribute('scrollamount',4,0);this.start();"
                      class="moving-body">
-                <script>
+                <script>// Javascript code to display information as a scrolling entity
                     for(var i=0; i<=10; i++)
                         {
                             document.write('Contact Us at 999999999 and e-mail us at wbs@gmail.edu. For further contact details look at the Contact Us Page.||| ');
@@ -49,12 +52,12 @@
             </div>
         </header>
 
-      <!-- <h3>GFG Google Maps :</h3>-->
+      
     <div class="main1" >
     <div id="map">
         <h3>GFG Google Maps :</h3>
     <script> 
-      function initMap() { 
+      function initMap() { // Javascript code to integrate the Google Maps API into our webpage and giving it the coordinates to display our location in the webpage 
         var uluru = {lat: 17.722717, lng: 83.313581}; 
         var map = new google.maps.Map(document.getElementById('map'), { 
           zoom: 4, 
@@ -71,31 +74,17 @@
 "https://maps.googleapis.com/maps/api/js?key= 
 AIzaSyB2bXKNDezDf6YNVc-SauobynNHPo4RJb8&callback=initMap"> 
     </script> 
-        <!--
-        <section >
-            <div class="map">
-                <h1>Google map location</h1>
-                <script>
-                function initMap() {
-                   var uluru = {lat: -25.344, lng: 131.036};
-                   var map = new google.maps.Map(
-                   document.getElementById('map'), {zoom: 4, center: uluru});
-                   var marker = new google.maps.Marker({position: uluru, map: map});
-                }
-                 </script>
-                  <script async defer
-                          src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
-                  </script>
-     
-        </section> -->
+  
     </div> 
+    <!-- contact details -->
     <div id="contactinfo">
         <h3>Contact-Info</h3>
-        <!-- <h3>email : wbsinfo.vizag@gmail.com</h3> -->
+        <h3>email : wbsinfo.vizag@gmail.com</h3>
 
     </div>
 </div>
         <hr>
+        <!-- socialmedia handel links-->
         <div >
         <ul class="social-icons">
             <li><a href="https://www.facebook.com/wbs.infor.5"><img src='Images/facebook.jpg' /></a></li>
