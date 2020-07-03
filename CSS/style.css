@@ -319,7 +319,7 @@ h3
     height:70px;
     margin-right: 20px;
   }
-.contact-info{
+/*.contact-info{
 	text-align:center
 }
 .coursesbody{
@@ -339,10 +339,34 @@ h3
 .coursesbody h3{
   text-align:center;
 
-}
-.coursesbody ul li{
+}*/
+/*.coursesbody ul li{
   text-align: center;
   list-style: none;
+}*/
+.coursebody h1{
+  text-align: center;
+
+}
+.coutline{
+  border-top:2px solid black;
+  display:flex;
+  width:90%;
+  margin-left:5%;
+}
+.courseimg{
+  padding-top: 5%;
+  width:50%;
+}
+.courseinfo{
+  padding-top: 5%;
+  width:50%;
+}
+.courseinfo h1{
+  text-align: center;
+}
+.courseimg img{
+  width:100%;
 }
 .md{
   float:right;
