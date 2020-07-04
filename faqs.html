@@ -1,3 +1,4 @@
+<!-- This page is mainly for the purpose of resolving some coomon doubts and queries that are ever persistent in student's minds -->
 <DOCTYPE html>
 <html>
     <head>
@@ -6,19 +7,20 @@
         <meta name="author" content="Amogh V">
         <meta name="description" content="My First ever Responsive Web Site">
         <meta name="keywords" content="Responsive Web Design, Still Learning">
-        <title>Welcome to WBS</title>
-        <link rel="stylesheet" href="./CSS/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <title>Welcome to WBS</title><!-- Title that will be displayed in the title bar of the webpage -->
+        <link rel="stylesheet" href="./CSS/style.css"><!-- Link to CSS Stylesheet -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet"><!--link for font style-->
     </head>
     <body>
+        <!-- this is the navigation bar -->
         <header>
             <div class="container">
                 <div id="branding">
-                    <img src="https://previews.123rf.com/images/captainvector/captainvector1703/captainvector170309945/74377645-university-logo-element.jpg">
+                    <img src="https://previews.123rf.com/images/captainvector/captainvector1703/captainvector170309945/74377645-university-logo-element.jpg"><!-- Image that  will be displayed as our logo -->
                 </div>
                 <nav>
                     <ul>
-                        <li ><a href="index.html">Home</a></li>
+                        <li ><a href="index.html">Home</a></li><!-- Contents of Navigation Bar that will be displayed in a horizontal line -->
                         <li><a href="about.html">About</a>
                             <!-- <ul>
                                 <li>
@@ -36,11 +38,12 @@
                         <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </nav>
+                <!-- scrolling below the navigation bar -->
                   <marquee  behavior="scroll" direction="left" scrollamount="4"
                      onmouseover="this.setAttribute('scrollamount',0,0);this.stop();"
                      onmouseout="this.setAttribute('scrollamount',4,0);this.start();"
                      class="moving-body">
-                <script>
+                <script>// Javascript code to display information as a scrolling entity
                     for(var i=0; i<=10; i++)
                         {
                             document.write('Contact Us at 999999999 and e-mail us at wbs@gmail.edu. For further contact details look at the Contact Us Page.||| ');
@@ -50,8 +53,10 @@
 
             </div>
         </header>
+        <!-- main body of the faqs start here -->
         <div class="faqbody">
             <h1>FAQS</h1>
+            <!-- corresponding answers for each questions -->
             <div class = "faq1">
                 <div class="question">
                     <p>Q . Do you have any expierence in this field ?</p> 
@@ -78,6 +83,7 @@
                 </div>
             </div>
         </div>
+        <!-- footer -->
         <footer>
             <p>Waltair Business School, Copyright &copy; 2020 </p>
         </footer>

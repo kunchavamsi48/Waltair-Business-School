@@ -1,3 +1,4 @@
+<!-- This page is called the index page or in common terms, also labelled as the "Home" page. This page is nothing but the landing page of the website for our institution. A very brief history of our institution along with our basic motto. Apart from this, we will also have links to redirect to other websites, each with their own specific purpose -->
 <DOCTYPE html>
 <html>
     <head>
@@ -6,20 +7,21 @@
         <meta name="author" content="waltair business school">
         <meta name="description" content="describe ebs">
         <meta name="keywords" content="admissions placements courses">
-        <title>Welcome to WBS</title>
-        <link rel="stylesheet" href="./CSS/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+        <title>Welcome to WBS</title><!-- Title that will be displayed in the web browser -->
+        <link rel="stylesheet" href="./CSS/style.css"><!-- Link to CSS Stylesheet -->
+        <link href="https://fonts.googleapis.com/css2?family=Notable&display=swap" rel="stylesheet"><!--link for font style-->
+        <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet"><!--link for font style-->
     </head>
     <body>
         <header>
+            <!-- this code is for the navigation bar -->
             <div class="container">
                 <div id="branding">
-                    <img src="https://previews.123rf.com/images/captainvector/captainvector1703/captainvector170309945/74377645-university-logo-element.jpg">
+                    <img src="https://previews.123rf.com/images/captainvector/captainvector1703/captainvector170309945/74377645-university-logo-element.jpg"><!-- Image that  will be displayed as our logo -->
                 </div>
                 <nav>
                     <ul>
-                        <li class="current"><a href="index.html">Home</a></li>
+                        <li class="current"><a href="index.html">Home</a></li><!-- Contents of Navigation Bar that will be displayed in a horizontal line -->
                         <li><a href="about.html">About</a>
                             <!-- <ul>
                                 <li>
@@ -37,11 +39,12 @@
                         <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </nav>
+                <!-- this code is for the scrolling which is dispalyed in navigation bar -->
                   <marquee  behavior="scroll" direction="left" scrollamount="4"
                      onmouseover="this.setAttribute('scrollamount',0,0);this.stop();"
                      onmouseout="this.setAttribute('scrollamount',4,0);this.start();"
                      class="moving-body">
-                <script>
+                <script>// Javascript code to display information as a scrolling entity
                     for(var i=0; i<=10; i++)
                         {
                             document.write('Contact Us at 999999999 and e-mail us at wbs@gmail.edu. For further contact details look at the Contact Us Page.||| ');
@@ -50,11 +53,12 @@
             </marquee>
             </div>
         </header>
+                <!-- The main body of the index modules starts here -->
                 <div class = "inbody">
                 	<h1 >WALTAIR BUSINESS SCHOOL</h1>
                     <h4 style: >"Come with your passion, leave with your career."</h4>
                 <div class="container2">
-  <img  id="i" src="Images/stk4.jpg" alt="img" style="width:100%;">
+  <img  id="i" src="Images/stk4.jpg" alt="img" style="width:100%;"><!-- Background Image to display -->
   <div  id ="ii" class="centered">
        We have been in the education business for fifteen years as SKML college , which is affiliated with Andhra University.
                        But from this year onwards, we are planning to start a new entity dealing with only managment courses/programs.
@@ -66,11 +70,12 @@
             <p id="ii">
                 
             </p>
+            <!-- Collaborations of the institute along with the images of the companies -->
             <div class = "collabbody">
 
                 <div class = "collab">
                 <h1>Your collaboration with</h1>
-                
+                <!-- images of the logos of the commpany -->
                 <img src="Images/clb1.jpg">
                 <img src="Images/clb2.jpg">
                 <img src="Images/clb3.jpg">
@@ -87,6 +92,7 @@
                 <img src="Images/clb14.jpg">
             </div>
             </div>
+            <!--footer -->
         <footer>
             <p>Waltair Business School, Copyright &copy; 2020</p>
         </footer>

@@ -1,3 +1,4 @@
+<!-- This page is mainly present for the purpose of providing a better understanding about the courses offered by our institution. -->
 <DOCTYPE html>
 <html>
     <head>
@@ -6,18 +7,18 @@
         <meta name="author" content="Amogh V">
         <meta name="description" content="My First ever Responsive Web Site">
         <meta name="keywords" content="Responsive Web Design, Still Learning">
-        <title>Welcome to WBS</title>
-        <link rel="stylesheet" href="./CSS/style.css">
+        <title>Welcome to WBS</title><!-- Title that will be displayed in the title bar of the webpage -->
+        <link rel="stylesheet" href="./CSS/style.css"><!-- Link to CSS Stylesheet -->
     </head>
     <body>
         <header>
             <div class="container">
                 <div id="branding">
-                    <img src="https://previews.123rf.com/images/captainvector/captainvector1703/captainvector170309945/74377645-university-logo-element.jpg">
+                    <img src="https://previews.123rf.com/images/captainvector/captainvector1703/captainvector170309945/74377645-university-logo-element.jpg"><!-- Image that  will be displayed as our logo -->
                 </div>
                 <nav>
                     <ul>
-                        <li ><a href="index.html">Home</a></li>
+                        <li ><a href="index.html">Home</a></li><!-- Contents of Navigation Bar that will be displayed in a horizontal line -->
                         <li><a href="about.html">About</a>
                             <!-- <ul>
                                 <li>
@@ -35,11 +36,12 @@
                         <li><a href="contact.html">Contact Us</a></li>
                     </ul>
                 </nav>
+                <!-- scrolling below navigation bar -->
                   <marquee  behavior="scroll" direction="left" scrollamount="4"
                      onmouseover="this.setAttribute('scrollamount',0,0);this.stop();"
                      onmouseout="this.setAttribute('scrollamount',4,0);this.start();"
                      class="moving-body">
-                <script>
+                <script>// Javascript code to display information as a scrolling entity
                     for(var i=0; i<=10; i++)
                         {
                             document.write('Contact Us at 999999999 and e-mail us at wbs@gmail.edu. For further contact details look at the Contact Us Page.||| ');
@@ -48,39 +50,58 @@
             </marquee>
             </div>
         </header>
-        <section id="showcase">
-            <div class="container">
-                <h1>COURSES</h1>
-               
-        <!-- </section>
-        <section id="newsletter">
-            <div class="container">
-                <h1>Subscribe to my weekly Newsletter</h1>
-                <form>
-                    <input type="email" placeholder="Enter your e-mail here...">
-                    <button type="submit" class="button_1">Subscribe</button>
-                </form>
-            </div>
-        </section> -->
-        <section id="boxes">
-            <div class="container">
-                <div class="box">
-                    <img src="./Images/ug.jpg">
-                    <h3 class="q">Undergraduate</h3>
-                    
-                </div>
-                <div class="box">
-                    <img src="./Images/pg.jpg">
-                    <h3 class="q">Postgraduate</h3>
-                    
-                </div>
-                <div class="box">
-                    <img src="./Images/res.png">
-                    <h3 class="q">Research</h3>
-                    
-                </div>
-            </div>
-        </section> -->
+        <!-- <div class = "coursesbody">
+            <h1>Courses</h1>
+            <img src="Images/ug.jpg">
+            <h3>Undergraduation</h3>
+            <button class = "md" onclick = "document.getElementById('details').style.display='block'">more details &#8595;</button>
+           
+        </div>
+         <div id ="details">
+               <h2>PROGRAM HIGHLIGHTS</h2>
+                <ul>
+                    <li>Equip students with fundamental knowledge in all major areas of business </li>
+                    <li> Train students to have analytical competence to analyze, design, implement and control information systems used by businesses  </li>
+                    <li>CEO speak / Industry Visit / Field work / Mini Project / Thesis Preparation  International Study Tour (Chargeable)  </li>
+                    <li>Up-to-date courses based on latest industry trends (recent new courses: Python, Cyber security, R programming, FinTech, AI applications)  </li>
+                    <li>Curriculum is aligned with the ISACA Model Curriculum for IS Auditing certification  </li>
+                    <li>Complement double-majors in Accounting, Finance, Marketing, Management, Operations Management, and Economics; allowing students to work in all these industries </li>
+                    <li>Opportunities for corporate projects and case competitions</li>
+                    <li>Opportunities for one-year or one-term or summer internship programs in various corgporations</li>
+                    <li>Opportunity to pursue MBA in overseas universities</li>
+                </ul>
+            </div> 
+		commented the 2nd model i.e by using a button
+        -->
+        <div class = "coursebody">
+        	<h1>Courses</h1>
+        	<div class = "coutline">
+        		<div class = "courseimg">
+        			<img src="Images/ug.jpg">
+        			
+        		</div>
+        		<div class = "courseinfo">
+        			
+        			<h1>BBA – Information Technology Audit Specialization</h1>
+
+                        Develop the skills to identify, assess and control cyber security risks with the BBA in Information Technology Auditing and Cyber Security in the Waltair Business School.
+                        Promote information system security and regulation compliance within organizations, and mitigate risks of breaches to the confidentiality, integrity and availability of organizational information.
+                        Prepare to play an indispensable role within
+
+                    <ul>
+                        <li>accounting and consulting firms,</li>
+                        <li>banks and financial companies, </li>
+                        <li>computer software and hardware companies,</li> 
+                        <li>government agencies,</li>
+                        <li>information and data service providers, and </li>
+                        <li> other organizations within the critical infrastructure sectors</li>    
+                    </ul>
+
+        			
+        		</div>
+        	
+        	</div>
+        </div>
         <footer>
             <p>Waltair Business School, Copyright &copy; 2020</p>
         </footer>
