@@ -300,13 +300,14 @@ h2
 }
 h3
 {
-  text-align: left;
+  text-align: center;
 }
 .social-icons {
     text-align: center;
     }  
   .social-icons li {
-    display:inline-block;
+    display:flex;
+    justify-content:center;
     list-style-type:none;
     -webkit-user-select:none;
     -moz-user-select:none;
@@ -319,6 +320,6 @@ h3
     height:70px;
     margin-right: 20px;
   }
-.contact-info{
+/*.contact-info{
 	text-align:center
-}
+}*/
