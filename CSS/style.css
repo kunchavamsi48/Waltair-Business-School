@@ -380,7 +380,9 @@ h3
   text-align: center;
 }
 .courseimg img{
+  
   width:100%;
+  height:80%;
 }
 .md{
   float:right;
