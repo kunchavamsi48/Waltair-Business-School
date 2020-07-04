@@ -438,13 +438,6 @@ tr:nth-child(odd) {
   text-align: center;
   font-size: 25px;
 }
-.anno
-{
-  text-align: center;
-  background-color: black;
-  color: white;
-  padding: 30px;
-}
 #c
 {
   text-align: left;
@@ -465,4 +458,15 @@ tr:nth-child(odd) {
   color: white;
 text-align: left;
 }
->>>>>>> 7d8cec61df362f93381d7ae17653427da7b6d36d
+.an
+{
+text-align: center;
+background-color: grey;
+padding: 300px;
+width: auto;
+margin-right: 0px;
+}
+#center
+{
+  text-align: center;
+}
