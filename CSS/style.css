@@ -3,7 +3,6 @@
 	display:flex;
 	text-align: center
 }
-
 .modules ul{
 	display:flex;
 	padding-top: 20px;
@@ -104,7 +103,6 @@ body{
     height: auto;
     text-align: center;
     margin-left:10%;
-   
 }
 .inbody h4{
 	font-family: 'Pangolin', cursive;
@@ -316,7 +314,7 @@ opacity: 0.4;
 }
 .centered3 {
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   font-size: 25px;
   text-align: center;
