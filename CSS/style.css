@@ -1,69 +1,75 @@
-body{
-   font: 15px/1.5 Aria, Helvetica, sans-serif;
-   padding: 0;
-   margin: 0;
-   background-color: #f4f4f4;
-}
-.container{
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+/*navigation of all*/
+.title{
+	display:flex;
+	text-align: center
 }
 
-header{
-    background: #35424a;
-    color: #ffffff;
-    padding-top: 30px;
-    min-height: 70px;
+.modules ul{
+	display:flex;
+	padding-top: 20px;
 }
-header a{
+.modules li{
+	list-style: none;
+	margin-left:35px;
+	margin-right: 35px;
+	
+}
+.modules .navstart{
+	margin-left:17%;
+    font-weight: bold;
+
+}
+.modules a{
     color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
 }
-.container ul{
-    margin: 0;
-    padding: 0;
-} 
-
-.container ul li{
-    display: inline-table;
-    margin-right:40px;
-    
+.title{
+	margin-left:30%;
+	height: 200px
 }
-.container ul li ul li{
-    display:flex;
-    display: none
-
-
+.title .logo img{
+	height:200px;
+	width:auto;
 }
-.branding ul li:hover ul li{
-    display:block;
+.title .clgname{
+	margin-top:30px;
+	margin-left:20px;
 }
-header #branding h1{
-    margin: 0;
+.title .clgname h1{
+	letter-spacing: 0.1rem;
+	font-family: 'Headland One', serif;
 }
-header #branding img{
-    transition: 1s ease;
-    margin-left: 50px;
-    margin-bottom: 10px
-    width:100px;
-    height: 100px;
-    float:left;
-
+.title .clgname h4{
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 0.1rem;
 }
-header nav{
-    float: right;
-    margin-top: 10px;
+.modules{
+	background-color: #35424a;
+	height: 60px;
+	margin-bottom:5px;
 }
-header .current a{
-    color: #e8491d;
+.modules a:hover{
+	color: #cccccc;
     font-weight: bold;
 }
-header a:hover{
-    color: #cccccc;
+.current a{
+	 color: #e8491d;
     font-weight: bold;
+}
+/*comman code*/
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+    width: 100%;
+}
+#center
+{
+  text-align: center;
 }
 #showcase{
     min-height: 400px;
@@ -81,180 +87,18 @@ header a:hover{
     font-size: 20px;
     color: black;
 }
-
-/*#boxes{
-    margin-top: 20px;
-}
-#boxes .box{
-    float: left;
-    text-align: center;
-    width: 30%;
-    /*height: 30%;
-    padding: 10px;
-}
-#boxes .box img{
-    width: 300px;
-    height: 200px;
-
-}
-*/
-footer{
-    padding: 20px;
-    margin-top: 20px;
-    color: #ffffff;
-    background-color: #e8491d;
-    text-align: center;
-}
-  .map {
-    height: 400px;  /* The height is 400 pixels */
-    width: 100%;  /* The width is the width of the web page */
-    background:grey;
-   }
-p
-{
-    style = "font-family:arial;";
-    font-size: 25px;
-}
-.centered {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  font-size: 25px;
-  text-align: center;
-  transform: translate(-50%, -50%);
-}
-.centered1 {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  font-size: 25px;
-  text-align: center;
-  transform: translate(-50%, -50%);
-}
-.centeredx {
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  font-size: 25px;
-  text-align: center;
-  transform: translate(-50%, -50%);
-}
-.container2 {
+.container2{
   position: relative;
   text-align: center;
   color: white;
 }
-.q
-{
-    margin-top: 0px;
-    font-size: 15px;
-    width: 260px;
-    background-color: black;
-    padding: 20px;
+body{
+   font: 15px/1.5 Aria, Helvetica, sans-serif;
+   padding: 0;
+   margin: 0;
+   background-color: #f4f4f4;
 }
-.r
-{
-    margin-top: 0px;
-    margin-left: 32px;
-    background-color: black;
-    padding: 20px;
-    width:260px;
-}
-.s
-{
-    opacity: 0.3;
-}
-.t
-{
-    width: 1500px;
-    padding: 20px;
-    text-align: left;
-    margin-top: 1px;
-    color: black;
-    margin-bottom: 1px;
-}
-.v  
-{
-float: left;
-width: 100px;
-height: 200px;
-}
-.centered2 {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  font-size: 25px;
-  text-align: center;
-  transform: translate(-50%, -50%);
-}
-.container3 {
-  position: relative;
-  text-align: center;
-  color: black;
-}
-#map { 
-        height: 400px; 
-        width: 100%; 
-       } 
-.cente {
-  position: absolute;
-  top: 15%;
-  left: 35%;
-  font-size: 40px;
-  color: black;
-  text-align: center;
-  transform: translate(-50%, -50%);
-}
-.cent {
-  position: absolute;
-  top: 30%;
-  left: 35%;
-  font-size: 30px;
-  color: black;
-  text-align: left;
-  transform: translate(-50%, -50%);
-}
-
-.faqbody .answer{
-  padding-bottom: 20px;
-  margin-bottom:5px;
-  border-bottom : 2px solid #bdc3c7;
-}
-.faqbody .question{
-
-  border-left :5px solid #bdc3c7;
-  padding:5px;
-}
-.faqbody{
-  font-family: 'Source Sans Pro', sans-serif;
-  max-width:700px;
-  width:80%;
-  border :20px solid #bdc3c7;
-  margin:10px auto;
-  padding : 10px;
-}
-.faqbody h1{
-  text-align: center;
-}
-.anbody{
-  font-family: 'Source Sans Pro', sans-serif;
-   max-width:700px;
-  width:80%;
-  margin:10px auto;
-  padding : 10px;
-}
-.anbody h1{
-  text-align: center;
-}
-.anbody .an1{
-  border:50x solid #bdc3c7;
-  text-align:center;
-  margin-top:30px;
-  background-color: #bdc3c7;
-  margin-bottom:30px;
-  padding-top: 20px;
-  padding-bottom:20px;
-}
+/*Index page*/
 .inbody{
     width:80%;
     height: auto;
@@ -280,21 +124,15 @@ height: 200px;
 	margin-right:30px;
 	margin-bottom:30px;
 }
-#i
+#ibackground
 {
 opacity: 0.4;
 }
-#ii
+#iintro
 {
   color: black;
 }
-h2
-{
-  color: black;
-  font-size: 45px;
-  text-align: left;
-}
-.centered3 {
+.centered {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -302,60 +140,7 @@ h2
   text-align: center;
   transform: translate(-50%, -50%);
 }
-#u
-{
-  color: black;
-}
-h3
-{
-  text-align: center;
-}
-.social-icons {
-    text-align: center;
-    }  
-  .social-icons li {
-    display:flex;
-    justify-content:center;
-    list-style-type:none;
-    -webkit-user-select:none;
-    -moz-user-select:none;
-    }
-  .social-icons li a {
-    border-bottom: none;
-    }
-  .social-icons li img {
-    width:70px;
-    height:70px;
-    margin-right: 20px;
-  }
-/*.contact-info{
-	text-align:center
-<<<<<<< HEAD
-}*/
-=======
-}
-.coursesbody{
-  text-align: center;
-}
-.coursesbody{
-  border:2px solid black;
-  width:50%;
-  margin-left:25%;
-  margin-top:5%;
-  background-color:  #ccccb3;
-}
-.coursesbody img{
-  width:40%;
-  height:40%;
-}
-.coursesbody h3{
-  text-align:center;
-
-}*/
-/*.coursesbody ul li{
-  text-align: center;
-  list-style: none;
-}*/
+/*courses*/
 .coursebody h1{
   text-align: center;
 
@@ -384,13 +169,60 @@ h3
   width:100%;
   height:100%;
 }
-.md{
-  float:right;
-  color:blue;
+/*faqs*/
+.faqbody .answer{
+  padding-bottom: 20px;
+  margin-bottom:5px;
+  border-bottom : 2px solid #bdc3c7;
 }
-#details{
-  display: none;
-  width:50%;
+.faqbody .question{
+
+  border-left :5px solid #bdc3c7;
+  padding:5px;
+}
+.faqbody{
+  font-family: 'Source Sans Pro', sans-serif;
+  max-width:700px;
+  width:80%;
+  border :20px solid #bdc3c7;
+  margin:10px auto;
+  padding : 10px;
+}
+.faqbody h1{
+  text-align: center;
+}
+/*announcements*/
+.an
+{
+text-align: center;
+background-color: grey;
+padding: 300px;
+width: auto;
+margin-right: 0px;
+}
+/*contacts*/
+ #map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 50%;  /* The width is the width of the web page */
+    background:grey;
+    margin-left:25%;
+   }
+ .socialmedia ul li{
+ 	list-style: none;
+ }
+ .socialmedia ul li a img{
+ 	width:40px;
+ 	height: 40px;
+ }
+.socialmedia ul{
+	display:flex;
+	margin-left: 43.5%;
+}
+/*admissions*/
+.container3 { 
+  position: relative;
+  text-align: center;
+  color: black;
 }
 .admi
 {
@@ -435,6 +267,7 @@ th, td {
 tr:nth-child(odd) {
   background-color: gray;
 }
+/*about*/
 #cnt
 {
   text-align: center;
@@ -460,15 +293,32 @@ tr:nth-child(odd) {
   color: white;
 text-align: left;
 }
-.an
+#i
 {
-text-align: center;
-background-color: grey;
-padding: 300px;
-width: auto;
-margin-right: 0px;
+opacity: 0.4;
 }
-#center
+#ii
 {
+  color: black;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.centeredx {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  font-size: 25px;
   text-align: center;
+  transform: translate(-50%, -50%);
+}
+.centered3 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  font-size: 25px;
+  text-align: center;
+  transform: translate(-50%, -50%);
 }

@@ -13,33 +13,7 @@
     </head>
     <body>
         <!-- this is the navigation bar -->
-        <header>
-            <div class="container">
-                <div id="branding">
-                    <img src="https://previews.123rf.com/images/captainvector/captainvector1703/captainvector170309945/74377645-university-logo-element.jpg"><!-- Image that  will be displayed as our logo -->
-                </div>
-                <nav>
-                    <ul>
-                        <li ><a href="index.html">Home</a></li><!-- Contents of Navigation Bar that will be displayed in a horizontal line -->
-                        <li><a href="about.html">About</a>
-                            <!-- <ul>
-                                <li>
-                                    first
-                                </li>
-                                <li>second</li>
-                                <li>
-                                    third
-                                </li>
-                            </ul> --></li>
-                        <li><a href="courses.html">Courses</a></li>
-                        <li><a href="admissions.html">Admissions</a></li>
-                        <li class="current"><a href="faqs.html">FAQS</a></li>
-                        <li><a href="announcements.html">Announcements</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </nav>
-                <!-- scrolling below the navigation bar -->
-                  <marquee  behavior="scroll" direction="left" scrollamount="4"
+        <marquee  behavior="scroll" direction="left" scrollamount="4"
                      onmouseover="this.setAttribute('scrollamount',0,0);this.stop();"
                      onmouseout="this.setAttribute('scrollamount',4,0);this.start();"
                      class="moving-body">
@@ -49,10 +23,29 @@
                             document.write('Contact Us at 999999999 and e-mail us at wbs@gmail.edu. For further contact details look at the Contact Us Page.||| ');
                         }
                 </script>
-            </marquee>
-
+    </marquee>
+    <div class = "inavigation">
+        <div class = "title">
+            <div class = "logo">
+                <img src="Images/logo.jpg">
             </div>
-        </header>
+            <div class = "clgname">
+                <h1>Waltair business School</h1>
+                <h4>"Come with passion, leave with career"</h4>
+            </div>
+        </div>
+        <div class = "modules">
+            <ul>
+                <li class = "navstart"><a href="index.html">Home</a></li><!-- Contents of Navigation Bar that will be displayed in a horizontal line -->
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li class = "current"><a href="faqs.html">FAQS</a></li>
+                <li ><a href="announcements.html">Announcements</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
         <!-- main body of the faqs start here -->
         <div class="faqbody">
             <h1>FAQS</h1>
