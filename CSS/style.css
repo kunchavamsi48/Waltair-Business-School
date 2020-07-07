@@ -6,6 +6,7 @@
 .modules ul{
 	display:flex;
 	padding-top: 20px;
+	margin-left: 17%;
 }
 .modules li{
 	list-style: none;
@@ -27,7 +28,7 @@
 .title{
 	margin-left:33%;
 	height: 100px
-  padding-bottom:10px;
+    padding-bottom: 10px;
 }
 .title .logo img{
 	height:100px;
