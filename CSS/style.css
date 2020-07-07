@@ -288,8 +288,7 @@ table, tr, th
 {
   font-family: arial, sans-serif;
   width: 75%;
-  border: 1px solid black;
-  border-collapse: collapse;
+  padding-left: 500px;
 }
 th, td {
    border: 1px solid black;
