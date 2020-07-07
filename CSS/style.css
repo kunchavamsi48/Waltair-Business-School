@@ -362,7 +362,7 @@ opacity: 0.4;
   text-align: center;
   transform: translate(-50%, -50%);
 }
-@media screen and (max-width : 768px){
+@media screen and (max-width : 320px){
 	.body{
 		overflow-x: hidden;
 	}
