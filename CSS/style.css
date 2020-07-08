@@ -356,11 +356,11 @@ opacity: 0.4;
 }
 .centered3 {
   position: absolute;
-  top: 20%;
   left: 50%;
+  top: 30%;
   font-size: 25px;
   text-align: center;
-  transform: translate(-50%, -50%);
+  transform: translate(-60%, -65%);
 }
 .blacked{
 	color: black;
