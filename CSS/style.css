@@ -41,8 +41,8 @@
     padding-bottom: 10px;
 }
 .title .logo img{
-	height:150;
-	width:300;
+  height:100px;
+  width:auto;
   margin-top: 15px;
 }
 .title .clgname{
@@ -366,7 +366,13 @@ opacity: 0.4;
 	color: black;
 }
 @media screen and (max-width : 768px){
-	.body{
+	.logo{
+    width:20px;
+    height:10px;
+    float:left;
+  }
+
+  .body{
 		overflow-x: hidden;
 	}
 	.nav-links{
