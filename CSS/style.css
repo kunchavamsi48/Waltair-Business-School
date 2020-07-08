@@ -374,6 +374,7 @@ opacity: 0.4;
 .title{
     padding:0;
     margin:0;
+    margin-bottom:10px;
   }
   .title .logo img{
     padding:0;
@@ -409,6 +410,7 @@ opacity: 0.4;
 	}
 	.burger {
 		display: block;
+    padding:10px;
 	}
 	.centered{
 		font-size: 9px;
@@ -450,9 +452,56 @@ opacity: 0.4;
   .collab h1{
     font-size: 17px;
   }
-  footer{
-    width:100%;
+  .coutline{
+    display: block;
+
   }
+  .courseinfo 
+  {
+    width:80%;
+  
+  }
+  .courseinfo ul{
+    width:100%;
+
+  }
+  .courseimg img{
+    width:100%;
+    height:auto;
+  }
+  .courseimg {
+    margin-left:10%;
+    width:80%;
+    
+  }
+  .coutline1{
+    display:flex;
+    flex-direction: column-reverse;
+  }
+  .courseinfo1 
+  {
+    width:80%;
+  
+  }
+  .courseinfo1 p,h1{
+    text-align: center;
+    width:100%;
+    margin-left: 10%;
+  }
+  .courseinfo1 ul{
+    width:100%;
+   
+  }
+  .courseimg1 img{
+    width:100%;
+    height:auto;
+  }
+  .courseimg1 {
+    margin-left:10%;
+    width:80%;
+    
+  }
+
 }
 .nav-active{
 	transform: translateX(0%);
