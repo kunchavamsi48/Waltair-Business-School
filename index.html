@@ -31,6 +31,7 @@
             </div>
         </div>
         <div class = "modules">
+            <div class = "menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</div>
             <ul class="nav-links">
                 <li class="current"><a href="index.html">Home</a></li><!-- Contents of Navigation Bar that will be displayed in a horizontal line -->
                 <li><a href="about.html">About</a></li>
@@ -40,11 +41,27 @@
                 <li><a href="announcements.html">Announcements</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
-		<div class="burger">
-			<div class="line1"></div>
-			<div class="line2"></div>
-			<div class="line3"></div>
+		<div id="mySidenav" class="sidenav">
+			    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="admissions.html">Admissions</a>
+                <a href="faqs.html">FAQS</a>
+                <a href="announcements.html">Announcements</a>
+                <a href="contact.html">Contact Us</a>
 		</div>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                // document.getElementById("inavigation,inbody,footer,marquee").style.marginLeft = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                // document.getElementById("inavigation,inbody,footer,marquee").style.marginLeft= "0";
+            }
+        </script>
 		</div>
     </div>
     <!-- The main body of the index modules starts here -->
@@ -88,6 +105,6 @@
         <footer>
             <p>Waltair Business School, Copyright &copy; 2020</p>
         </footer>
-		<script src="./app.js"></script>
+		
 </body>
 </html>
