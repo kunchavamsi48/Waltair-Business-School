@@ -37,7 +37,7 @@
 }
 .title{
 	margin-left:33%;
-	height: 100px
+	height: 100px;
     padding-bottom: 10px;
 }
 .title .logo img{
@@ -67,8 +67,8 @@
     font-weight: bold;
 }
 .current a{
-	 color: #e8491d;
-    font-weight: bold;
+	color: #e8491d;
+  font-weight: bold;
 }
 /*common code*/
 footer{
@@ -265,11 +265,6 @@ margin-right: 0px;
   text-align: center;
   color: black;
 }
-.admi
-{
-
-}
-
 .qu
 {
 text-align: left;
@@ -437,27 +432,6 @@ opacity: 0.4;
   .body{
 		overflow-x: hidden;
 	}
-	/*.nav-links{
-		position: absolute;
-		right: 0px;
-		height: 92vh;
-		top : 8vh;
-		background-color: black;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width: 50%;
-		transform: translateX(100%);
-		transition: transform 0.5s ease-in;
-	}
-	.nav-links li{
-		opacity: 1;
-	}
-	.burger {
-		display: block;
-    padding:10px;
-    padding-left:30px;
-	}*/
 	.centered{
 		font-size: 9px;
 		top: 105px;
@@ -505,11 +479,9 @@ opacity: 0.4;
   .courseinfo 
   {
     width:80%;
-  
   }
   .courseinfo ul{
     width:100%;
-
   }
   .courseimg img{
     width:100%;
