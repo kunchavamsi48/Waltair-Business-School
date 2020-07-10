@@ -1,0 +1,95 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Announcements-WBS</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Headland+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- this is the naviagtion bar -->
+        <marquee  behavior="scroll" direction="left" scrollamount="4"
+                     onmouseover="this.setAttribute('scrollamount',0,0);this.stop();"
+                     onmouseout="this.setAttribute('scrollamount',4,0);this.start();"
+                     class="moving-body">
+                <script>// Javascript code to display information as a scrolling entity
+                    for(var i=0; i<=10; i++)
+                        {
+                            document.write('Contact Us at 999999999 and e-mail us at wbs@gmail.edu. For further contact details look at the Contact Us Page.||| ');
+                        }
+                </script>
+    </marquee>
+   <div class = "inavigation">
+        <div class = "title">
+            <div class = "logo">
+                <img src="Images/res.jpg">
+            </div>
+            <div class = "clgname">
+                <h1>Waltair Business School</h1>
+                <h4>"Come with passion, leave with career"</h4>
+            </div>
+        </div>
+        <div class = "modules">
+            <div class = "menu" style="font-size:24px;cursor:pointer" onclick="openNav()">&#9776; Menu</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li><!-- Contents of Navigation Bar that will be displayed in a horizontal line -->
+                <li><a href="about.html">About</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="admissions.html">Admissions</a></li>
+                <li><a href="faqs.html">FAQS</a></li>
+                <li class="current"><a href="careers.html">careers</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="admissions.html">Admissions</a>
+                <a href="faqs.html">FAQS</a>
+                <a href="careers.html">careers</a>
+                <a href="contact.html">Contact Us</a>
+        </div>
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                // document.getElementById("inavigation,inbody,footer,marquee").style.marginLeft = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                // document.getElementById("inavigation,inbody,footer,marquee").style.marginLeft= "0";
+            }
+        </script>
+        </div>
+    </div>
+        <h1 id="center">CAREERS</h1>
+        <div class="careers">
+ <article id="career-align">Career opportunities in the fields of information technology auditing and cyber security are rapidly growing, with the Bureau of Labor Statistics estimating a 32 percent increase in related jobs by 2028, amounting to roughly 28,500 new jobs.
+ Many areas of employment are open to BBA Information Technology Auditing and Cyber Security specialization graduates, including: 
+<br>
+<br>
+ <ul id="p0p">
+    <li>Cyber Security Professional</li>
+    <br>
+    <li>Information Security Specialist </li>
+    <br>
+    <li>Information Systems Auditor</li>
+    <br>
+    <li>Information Technology Security Analyst</li>
+    <br>
+    <li>Risk Analyst</li>
+    <br>
+    <li>Risk and Compliance Auditor </li>
+    <br>
+    <li>Security Analyst.</li>
+ </ul>
+</article>
+</div>
+    </body>
+    <footer id="fit">
+            <p>Waltair Business School, Copyright &copy; 2020</p>
+        </footer>
+</html>    
