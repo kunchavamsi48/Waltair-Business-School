@@ -440,6 +440,7 @@ opacity: 0.4;
 	.centered{
 		font-size: 9px;
 		top: 105px;
+    transform: translate(-50%, -32%);
 	}
 	.collab img{
 		width: 30px;
@@ -528,7 +529,11 @@ opacity: 0.4;
     display: flex;
     margin-left: 22.5%;
 }
-
+#ibackground {
+    opacity: 0.5;
+    margin-left: -6%;
+    height: fit-content;
+}
 }
 .nav-active{
 	transform: translateX(0%);
