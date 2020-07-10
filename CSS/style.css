@@ -566,6 +566,33 @@ opacity: 0.4;
     height: fit-content;
 }
 }
+.careers
+{
+  width: 80%;
+  height: 120%;
+  background-color: aliceblue;
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;
+  border-color: aliceblue;
+  text-align: center;
+  padding: 20px;
+  border-style: solid;
+  border-radius: 25px;
+  margin-left:10%;
+  margin-right: 5%;
+
+}
+#fit
+{
+  bottom: 0;
+  margin:5px;
+}
+#career-align
+{
+  text-align: center;
+  font-size: 30px;
+
+}
 .nav-active{
 	transform: translateX(0%);
 }
