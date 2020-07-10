@@ -74,8 +74,8 @@
 footer{
     padding: 20px;
     margin-top: 20px;
-    color: #ffffff;
-    background-color: #e8491d;
+    color: #e8491d;
+    background-color: #f4f4f4;
     text-align: center;
     width: 100%;
 }
@@ -352,7 +352,7 @@ opacity: 0.4;
 .centered3 {
   position: absolute;
   left: 50%;
-  top: 30%;
+  top: 50%;
   font-size: 25px;
   text-align: center;
   transform: translate(-60%, -65%);
@@ -398,6 +398,12 @@ opacity: 0.4;
   margin-left: 50px;
 }
 @media screen and (max-width : 768px){
+  #career-align
+{
+  text-align: center;
+  font-size: 10px;
+
+}
 	.menu{
     display: block;
     padding:10px;
@@ -568,7 +574,7 @@ opacity: 0.4;
 .careers
 {
   width: 80%;
-  height: 120%;
+  height: 95%;
   background-color: aliceblue;
   font-family: Helvetica, Arial, sans-serif;
   color: black;
