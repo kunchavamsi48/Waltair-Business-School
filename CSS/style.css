@@ -428,12 +428,12 @@ opacity: 0.4;
     margin-left:5px;
 
   }
-  .title .clgname{
+  .title .clgname {
     font-size: 11px;
-    margin-left:60px;
-    padding:0px;
-    text-align: left;
-  }
+    margin-left: 40px;
+    padding: 0px;
+    text-align: center;
+}
   .body{
 		overflow-x: hidden;
 	}
@@ -454,11 +454,14 @@ opacity: 0.4;
 	.centeredx{
 		font-size: 9px;
 		top: 110px;
-	}
-	.centered3{
-		font-size: 9px;
-		top: 175px;
-	}
+    transform: translate(-49%, -66%);
+  }
+	
+	.centered3 {
+    font-size: 11px;
+    top: 180px;
+    transform: translate(-45%, -38%);
+  }
   .collab{
     margin-top: 30px;
     background-color:#c9cad4 ;
@@ -482,9 +485,9 @@ opacity: 0.4;
     display: block;
 
   }
-  .courseinfo 
-  {
-    width:80%;
+  .courseinfo {
+    width: 90%;
+    margin-left: -10%;
   }
   .courseinfo ul{
     width:100%;
@@ -498,6 +501,10 @@ opacity: 0.4;
     width:80%;
     
   }
+  .courseinfo h1{
+    margin-left:20%;
+    margin-top:-2%;
+  }
   .coutline1{
     display:flex;
     flex-direction: column-reverse;
@@ -507,10 +514,15 @@ opacity: 0.4;
     width:80%;
   
   }
-  .courseinfo1 p,h1{
+  .courseinfo1 p{
+    text-align: center;
+    width:121%;
+    margin-left: 0%;
+  }
+  .courseinfo1 h1{
     text-align: center;
     width:80%;
-    margin-left: 5%;
+    margin-left: 20%;
   }
   .courseinfo1 ul{
     width:100%;
@@ -531,7 +543,26 @@ opacity: 0.4;
 }
 #ibackground {
     opacity: 0.5;
-    margin-left: -6%;
+    margin-left: 0%;
+    height: fit-content;
+}
+#showcase h1 {
+    margin-top: 0%;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    margin-left: 0%;
+}
+#f1 {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 0px;
+}
+#i {
+    opacity: 0.4;
     height: fit-content;
 }
 }
