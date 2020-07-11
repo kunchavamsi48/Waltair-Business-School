@@ -331,6 +331,7 @@ tr:nth-child(odd) {
 {
   font-size: 25px;
   color:black;
+	background-color:blue;
 text-align: left;
 }
 #i
